@@ -13,6 +13,23 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        primary: 'Manrope'
+      },
+      colors: {
+        white: '#FFFFFF',
+        black: '#000000',
+        primaryBlue: '#252F3D',
+        secondaryBlue: '#2C7EF8',
+        thirdBlue: '#EDF3FD',
+        primaryGray: '#4D5254',
+        secondaryGray: '#CFCFCF',
+        thirdGray: '#5BB59A',
+        primaryGreen: '#85BF55',
+        secondaryGreen: '#59AE43',
+        thirdGreen: '#5BB59A',
+        primaryRed: '#F82C2C',
+      },
     },
   },
   plugins: [],
