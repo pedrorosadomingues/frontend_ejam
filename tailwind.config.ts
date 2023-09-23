@@ -14,7 +14,7 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        primary: 'Manrope'
+        primary: 'Manrope, sans-serif'
       },
       colors: {
         white: '#FFFFFF',
