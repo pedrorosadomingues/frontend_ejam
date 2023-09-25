@@ -9,5 +9,5 @@ services:
     container_name: nginx_app
     build: ./nginx
     ports:
-      - 80:80
+      - 800:800
   
