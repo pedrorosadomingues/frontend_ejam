@@ -3,6 +3,7 @@ import LogoBar from "@/components/logoBar/LogoBar"
 import ProgressBar from "@/components/progressBar/ProgressBar"
 import TextBar from "@/components/textBar/TextBar"
 import Main from "@/components/main/Main"
+import Footer from "@/components/footer/Footer"
 
 export default function ProductPage(): JSX.Element {
   return (
@@ -12,6 +13,7 @@ export default function ProductPage(): JSX.Element {
     <TextBar />
     <ProgressBar />
     <Main />
+    <Footer />
    </main>
   )
 }

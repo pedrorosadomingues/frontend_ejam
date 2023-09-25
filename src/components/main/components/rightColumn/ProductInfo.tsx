@@ -2,7 +2,7 @@ export default function ProductInfo(): JSX.Element {
     return (
         <div className="w-[100%]">
             <h1 className="text-black text-[32px] text-left font-primary font-light min-w-full "><span className="text-secondaryBlue">ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For Only <span className="text-secondaryBlue"> $14 Each</span> ($84.00 Total!)</h1>
-            <div className="mt-[32px]">
+            <div >
                 <div className="flex">
                     <img src='images/main/fifthImage.svg'></img>
                     <div className="ml-[24px] w-[71%] gap-[12px] flex flex-col">
@@ -29,8 +29,8 @@ export default function ProductInfo(): JSX.Element {
                 </div>
                 <div className="flex mb-[16px] mt-[16px]">
                     <img src='images/main/eighthImage.svg'></img>
-                    <span className="font-primary text-primaryGray size-[16px] font-light ml-[12px]">Negative Ion Technology may
-                        <span className="font-primary text-primaryGray size-[16px] font-hard"> help with allergens
+                    <span className="font-primary text-primaryGray text-[16px] font-light ml-[12px]">Negative Ion Technology may
+                        <span className="font-primary text-primaryGray text-[16px] font-hard"> help with allergens
                         </span>
                     </span>
                 </div>
