@@ -32,7 +32,7 @@ const config: Config = {
         primaryGreen: '#85BF55',
         secondaryGreen: '#59AE43',
         thirdGreen: '#5BB59A',
-        primaryRed: '#F82C2C', 
+        primaryRed: '#F82C2C',
       },
       fontWeight: {
         lite: '300',
@@ -43,6 +43,15 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }: { addUtilities: Function }) {
+      const newUtilities = {
+        '.flex-at-1488': {
+          display: 'flex',
+        },
+      };
+      addUtilities(newUtilities, ['responsive']);
+    },
+  ],
 }
 export default config

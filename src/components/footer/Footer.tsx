@@ -1,6 +1,6 @@
 export default function Footer(): JSX.Element {
     return (
-        <footer className="nd:h-[88px] h-[102px] bg-primaryBlue flex md:mt-[61px] mt-[32px]">
+        <footer className="md:h-[88px] h-[102px] bg-primaryBlue flex md:mt-[61px] mt-[32px]">
             <div className="flex flex-col md:flex-row justify-between items-center w-[83%] m-auto">
                 <div className="flex items-center">
                     <span className="capitalize text-[12px] md:text-[16px] font-light font-primary md:leading-[22px] leading-[16px]">Copyright (c) 2023</span>
