@@ -5,7 +5,7 @@ export default function DiscountInfo() {
                 <img src='images/main/ninthImage.svg'></img><span className=" ml-[16px] text-black font-primary size-[16px] font-light leading[22ox] ">Save <span className="text-secondaryBlue"> 53%</span> and get <span className="text-secondaryBlue">6 extra Clarifision</span> for only  <span className="text-secondaryBlue"> $14 Each</span>.</span>
             </div>
             <button className="mt-[20px] bg-secondaryGreen flex items-center justify-center rounded-[50px] w-full h-[59px]">
-                <span className="mr-[19px] font-primary size-[20px] font-hard TEXT-WHITE">YES - CLAIM MY DISCOUNT</span>
+                <span className="mr-[19px] font-primary text-[20px] font-hard TEXT-WHITE">YES - CLAIM MY DISCOUNT</span>
                 <img src='images/main/eleventhImage.svg'></img>
             </button>
             <div className="flex mt-[12px] border border-gray-300 rounded-[4px] pl-[16px] pr-[16px] pt-[8px] pb-[8px] justify-center h-[33px]">
