@@ -1,0 +1,6 @@
+services:
+  next-app:
+    container_name: next-app
+    build: ./frontend
+    ports:
+      - 3000:3000
