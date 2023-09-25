@@ -4,3 +4,9 @@ services:
     build: ./frontend
     ports:
       - 3000:3000
+
+  nginx:
+    container_name: nginx_app
+    build: ./nginx
+    ports:
+      - 80:80
