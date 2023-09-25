@@ -3,10 +3,10 @@ services:
     container_name: next-app
     build: ./frontend
     ports:
-      - 3000:3000
+      - 80:80
 
   nginx:
     container_name: nginx_app
     build: ./nginx
     ports:
-      - 80:80
+      - 380:380
