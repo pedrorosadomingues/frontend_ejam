@@ -9,4 +9,5 @@ services:
     container_name: nginx_app
     build: ./nginx
     ports:
-      - 380:380
+      - 80:80
+  
