@@ -1,6 +1,6 @@
 export default function Header(): JSX.Element {
     return (
-        <div className='bg-primaryBlue text-white flex justify-around'>
+        <div className='bg-primaryBlue text-white flex justify-around hidden md:flex'>
             <div className='bg-primaryBlue text-white h-[50px] w-[83%] flex items-center justify-between'>
                 <div className='h-22px flex justify-center items-center gap-[8px]' >
                     <img src='/images/header/primaryImage.svg'></img>

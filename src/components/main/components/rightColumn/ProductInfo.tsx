@@ -1,7 +1,7 @@
 export default function ProductInfo(): JSX.Element {
     return (
         <div className="w-[100%]">
-            <h1 className="text-black text-[32px] text-left font-primary font-light min-w-full "><span className="text-secondaryBlue">ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For Only <span className="text-secondaryBlue"> $14 Each</span> ($84.00 Total!)</h1>
+            <h1 className="text-black text-[32px] text-left font-primary font-light w-full "><span className="text-secondaryBlue">ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For Only <span className="text-secondaryBlue"> $14 Each</span> ($84.00 Total!)</h1>
             <div >
                 <div className="flex">
                     <img src='images/main/fifthImage.svg'></img>

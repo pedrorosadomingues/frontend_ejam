@@ -1,6 +1,6 @@
 export default function Footer(): JSX.Element {
     return (
-        <div className="h-[88px] bg-primaryBlue flex mt-[61px]">
+        <footer className="h-[88px] bg-primaryBlue flex mt-[61px]">
             <div className="flex justify-between items-center w-[83%] m-auto">
                 <div className="flex">
                     <span className="capitalize text-[16px] font-light font-primary leading-[22px]">Copyright (c) 2023</span>
@@ -12,6 +12,6 @@ export default function Footer(): JSX.Element {
                     <span className="capitalize text-[16px] font-light font-primary leading-[22px]">Secure 256-bit SSL encryption.</span>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
